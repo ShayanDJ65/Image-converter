@@ -59,9 +59,6 @@ Png_btn.grid(row = 0, column = 2, padx = 15)
 Ttf_btn = ct.CTkButton(Buttons_frame, width = 80, height= 70, text="To TTF",text_font=("Excluded", 15, 'bold'),command= lambda: savefile(4))
 Ttf_btn.grid(row = 0, column = 3, padx = (15,120))
 #=======================================#
-copyright_txt = ct.CTkLabel(root, text = "Designed by Shayan Hosseinzadeh",text_font=('Excluded',12,'bold'))
-copyright_txt.place(relx = 0.5,anchor = tk.CENTER,rely=0.97)
-
 
 
 root.mainloop()
